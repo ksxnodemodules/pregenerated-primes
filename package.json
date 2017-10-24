@@ -22,6 +22,7 @@
     "exec": "bash -c",
     "exec:win32": "cmd /c",
     "remake-package-json": "node sh/remake-package-json",
+    "generate-data-script": "node sh/generate-data-script",
     "clean": "bash 'sh/clean.sh'",
     "fix": "bash 'sh/fix.sh'",
     "test": "bash 'sh/test.sh'"
