@@ -7,6 +7,13 @@
     "js-yaml": "^3.10.0",
     "standard": "^10.0.3"
   },
+  "standard": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "jest": true
+    }
+  },
   "scripts": {
     "sh": "sh",
     "bash": "bash",
