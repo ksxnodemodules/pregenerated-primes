@@ -7,7 +7,7 @@ function * generate () {
   let lowerLimit = 3 // where i start from
   let upperLimitSqrt = 3 // whose squared value where i come to
 
-  for ( ; ; ) {
+  for (; ;) {
     const upperLimit = sqr(upperLimitSqrt)
 
     for (let i = lowerLimit; i <= upperLimit; i += 2) {
