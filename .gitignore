@@ -5,6 +5,7 @@
 .out.*
 out
 out.*
+*.min.*
 quick-test
 quick-test.*
 tmp
