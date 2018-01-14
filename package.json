@@ -1,6 +1,6 @@
 {
   "name": "pregenerated-primes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "List of 65536 first prime numbers (≤ 821641)",
   "main": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
