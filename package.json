@@ -3,6 +3,7 @@
   "main": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "devDependencies": {
+    "is-prime-number": "KSXGitHub/is-prime-number#ts",
     "standard": "^10.0.3"
   },
   "engines": {
