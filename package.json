@@ -1,9 +1,11 @@
 {
+  "name": "pregenerated-primes",
   "version": "0.0.0",
+  "description": "List 65535 first prime numbers (≤ 821641)",
   "main": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "devDependencies": {
-    "is-prime-number": "KSXGitHub/is-prime-number#ts",
+    "is-prime-number": "github:KSXGitHub/is-prime-number#ts",
     "jest": "^21.2.1",
     "js-yaml": "^3.10.0",
     "standard": "^10.0.3"
@@ -30,5 +32,19 @@
     "clean": "bash 'sh/clean.sh'",
     "fix": "bash 'sh/fix.sh'",
     "test": "bash 'sh/test.sh'"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksxnodemodules/pregenerated-primes.git"
+  },
+  "keywords": [
+    "prime",
+    "list",
+    "pregenerated"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksxnodemodules/pregenerated-primes/issues"
+  },
+  "homepage": "https://github.com/ksxnodemodules/pregenerated-primes#readme"
 }
