@@ -1,17 +1,15 @@
 'use strict'
 const path = require('path')
-const {writeFileSync, readFileSync} = require('fs')
+const {writeFileSync} = require('fs')
 const prime = require('./prime.js')
+const allGeneratedPrimes = require('./all-generated-primes')
 const filename = path.resolve(__dirname, '.static-prime')
 
 let staticPrimeNumbers
 updateArray()
 
 function updateArray () {
-  staticPrimeNumbers = readFileSync(filename, 'utf8')
-    .split(/\r\n/)
-    .filter(Boolean)
-    .map(x => Number(x))
+  staticPrimeNumbers = allGeneratedPrimes.get()
 }
 
 function updateFile (count) {

@@ -44,7 +44,7 @@ const traverseQuantity = count => traverse(() => {
 })
 
 function isPrime (x) {
-  if (x < 2) return false
+  if (x < 2 || x % 1 !== 0) return false
 
   for (const y of traverseRange(x)) {
     if (x === y) return true
