@@ -1,6 +1,6 @@
 # Pregenerated Primes
 
-List of 65535 first prime numbers (≤ 821641)
+List of 65536 first prime numbers (≤ 821641)
 
 ## Requirements
 
