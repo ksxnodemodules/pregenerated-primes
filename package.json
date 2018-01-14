@@ -8,7 +8,6 @@
     "is-prime-number": "github:KSXGitHub/is-prime-number#ts",
     "jest": "^21.2.1",
     "js-yaml": "^3.10.0",
-    "number-enum": "^2.1.1",
     "standard": "^10.0.3"
   },
   "engines": {
