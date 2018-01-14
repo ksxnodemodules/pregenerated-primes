@@ -121,6 +121,9 @@ makefile       text
 Procfile    text
 .slugignore text
 
+## COMPRESSED SCRIPTS
+*.min.* binary
+
 ## GRAPHICS
 *.ai   binary
 *.bmp  binary
