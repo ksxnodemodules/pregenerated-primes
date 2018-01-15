@@ -12,3 +12,9 @@ List of 65536 first prime numbers (≤ 821641)
 
 * Node.js ≥ 8.9.0
 * [Former Requirements](#for-use)
+
+## Installation
+
+```sh
+npm install --save pregenerated-primes # or: yarn add pregenered-primes
+```
