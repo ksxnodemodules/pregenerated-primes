@@ -13,7 +13,7 @@ describe('Generate Data Script', () => {
       expect((await fs.stat(filename)).isFile()).toBe(true)
     })
 
-    it('that is a valid Node.js module', async () => {
+    it('that is a valid Node.js module', () => {
       expect(require(filename)).toBeInstanceOf(Array)
     })
   })
