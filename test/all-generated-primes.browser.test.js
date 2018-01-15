@@ -1,6 +1,5 @@
 'use strict'
 const {isPrime} = require('../prime')
-require('../sh/generate-data-script') // make sure resources exist
 const allGeneratedPrimes = require('../all-generated-primes.browser')
 const expectNumberArray = x => x.forEach(x => expect(typeof x).toBe('number'))
 const expectPrimeArray = x => x.forEach(x => expect(isPrime(x)).toBe(true))

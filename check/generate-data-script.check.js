@@ -3,7 +3,6 @@ const path = require('path')
 const fs = require('fs-extra')
 
 describe('Generate Data Script', () => {
-  require('../sh/generate-data-script')
   const root = path.dirname(__dirname)
   const getpath = filename => path.resolve(root, filename)
 

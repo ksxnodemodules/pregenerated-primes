@@ -35,6 +35,7 @@
     "generate-data-script": "node sh/generate-data-script",
     "clean": "bash 'sh/clean.sh'",
     "fix": "bash 'sh/fix.sh'",
+    "pretest": "node sh/generate-data-script",
     "test": "bash 'sh/test.sh'"
   },
   "repository": {
