@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "devDependencies": {
+    "fs-extra": "^5.0.0",
     "is-prime-number": "^2.1.0",
     "jest": "^21.2.1",
     "js-yaml": "^3.10.0",
