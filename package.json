@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "devDependencies": {
-    "is-prime-number": "github:KSXGitHub/is-prime-number#ts",
+    "is-prime-number": "^2.1.0",
     "jest": "^21.2.1",
     "js-yaml": "^3.10.0",
     "standard": "^10.0.3"

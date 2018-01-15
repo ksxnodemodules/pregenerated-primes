@@ -1542,9 +1542,9 @@ is-posix-bracket@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
 
-"is-prime-number@github:KSXGitHub/is-prime-number#ts":
-  version "2.0.2"
-  resolved "https://codeload.github.com/KSXGitHub/is-prime-number/tar.gz/02f5d64b87fffd97da18b102090ea889ce8bde12"
+is-prime-number@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/is-prime-number/-/is-prime-number-2.1.0.tgz#8a370f7568d1269a5179259615297c07f705440b"
 
 is-primitive@^2.0.0:
   version "2.0.0"
