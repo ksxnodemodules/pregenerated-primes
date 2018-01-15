@@ -2,9 +2,9 @@
 language: node_js
 
 node_js:
-  - 8.9.0
-  - lts
-  - latest
+  - 8.9.0 # Minimum Requirements
+  - 8 # Latest of LTS
+  - 9 # Latest of All
 
 cache:
   directories:
