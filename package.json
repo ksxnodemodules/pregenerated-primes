@@ -4,6 +4,9 @@
   "description": "List of 65536 first prime numbers (≤ 821641)",
   "main": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "browser": {
+    "./all-generated-primes.js": "./all-generated-primes.browser.js"
+  },
   "devDependencies": {
     "fs-extra": "^5.0.0",
     "is-prime-number": "^2.1.0",
