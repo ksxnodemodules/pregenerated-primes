@@ -1,16 +1,7 @@
 'use strict'
-
-const get = () => require('./prime.static.min.js')
-
-let once = () => {
-  const value = get()
-  once = () => value
-  return value
-}
+const once = require('./prime.static.min.json')
 
 module.exports = {
-  get,
-  get once () {
-    return once()
-  }
+  get: () => once,
+  once
 }
